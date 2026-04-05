@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Architect</title>
+    <script>
+      // SPA redirect for GitHub Pages — stores the path and redirects to /
+      // index.html picks it up and restores the URL via History API
+      sessionStorage.redirect = location.href;
+      location.replace('/');
+    </script>
+  </head>
+  <body></body>
+</html>
