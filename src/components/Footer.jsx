@@ -30,7 +30,7 @@ export default function Footer() {
                   { label: 'The Architect', path: '/the-architect' },
                   { label: 'The Audit', path: '/the-audit' },
                   { label: 'Blog', path: '/blog' },
-                  { label: 'Book Online', path: '/book-online' },
+                  { label: 'Book A Call', path: '/book-online' },
                 ].map(({ label, path }) => (
                   <Link
                     key={label}

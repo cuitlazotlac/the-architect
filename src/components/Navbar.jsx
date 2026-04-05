@@ -7,8 +7,9 @@ const navLinks = [
   { path: '/the-architect', label: 'The Architect' },
   { path: '/the-audit', label: 'The Audit' },
   { path: '/blog', label: 'Blog' },
-  { path: '/book-online', label: 'Book Online' },
 ]
+
+const ctaLink = { path: '/book-online', label: 'Book A Call' }
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -51,6 +52,12 @@ export default function Navbar() {
                 {label}
               </Link>
             ))}
+            <Link
+              to={ctaLink.path}
+              className="text-[11px] tracking-[0.15em] uppercase font-raleway font-normal border border-bronze text-bronze px-5 py-2.5 hover:bg-bronze hover:text-cream transition-all duration-500 btn-shine"
+            >
+              {ctaLink.label}
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -82,6 +89,14 @@ export default function Navbar() {
               {label}
             </Link>
           ))}
+          <Link
+            to={ctaLink.path}
+            onClick={() => setIsOpen(false)}
+            className="text-[11px] tracking-[0.15em] uppercase font-raleway border border-bronze text-bronze px-5 py-2.5 text-center mt-2 hover:bg-bronze hover:text-cream transition-all duration-500"
+            style={{ transitionDelay: isOpen ? `${navLinks.length * 50}ms` : '0ms' }}
+          >
+            {ctaLink.label}
+          </Link>
         </div>
       </div>
     </nav>
