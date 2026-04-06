@@ -12,7 +12,7 @@ export default function TheArchitect() {
             The Architect
           </h1>
           <p className="text-text-light text-sm md:text-base leading-relaxed max-w-xl mx-auto">
-            Meet Kloe — the coach behind the method.
+            Meet Jade — the coach behind the method.
           </p>
         </div>
       </section>
@@ -24,7 +24,7 @@ export default function TheArchitect() {
             <div className="relative overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1594381898411-846e7d193883?w=700&h=900&fit=crop"
-                alt="Kloe Smith"
+                alt="Jade Légaré"
                 className="w-full h-[500px] lg:h-[600px] object-cover transition-transform duration-[1.2s] hover:scale-105"
               />
             </div>

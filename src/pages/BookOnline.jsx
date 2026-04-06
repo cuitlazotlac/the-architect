@@ -247,7 +247,7 @@ export default function BookOnline() {
               </button>
               {status === 'sent' && (
                 <p className="text-bronze text-sm mt-2 animate-fade-up">
-                  Thank you for your enquiry! Kloe will be in touch within 48 hours.
+                  Thank you for your enquiry! Jade will be in touch within 48 hours.
                 </p>
               )}
               {status === 'error' && (

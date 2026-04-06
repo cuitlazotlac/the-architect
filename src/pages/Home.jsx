@@ -21,7 +21,7 @@ const services = [
 
 const testimonials = [
   {
-    quote: "Working with Kloe changed my entire relationship with food and my body. For the first time, I feel like I'm building something that's actually mine.",
+    quote: "Working with Jade changed my entire relationship with food and my body. For the first time, I feel like I'm building something that's actually mine.",
     name: 'Sarah M.',
   },
   {
@@ -29,7 +29,7 @@ const testimonials = [
     name: 'Emma T.',
   },
   {
-    quote: "Kloe doesn't just give you a plan. She helps you understand why nothing has worked before, and then builds something that actually does.",
+    quote: "Jade doesn't just give you a plan. She helps you understand why nothing has worked before, and then builds something that actually does.",
     name: 'Rachel K.',
   },
 ]

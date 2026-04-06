@@ -59,7 +59,7 @@ export default function BlogPost() {
           <Reveal variant="fadeUp">
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-dark-brown text-sm font-medium">Kloe Smith</p>
+                <p className="text-dark-brown text-sm font-medium">Jade Légaré</p>
                 <p className="text-text-light text-xs mt-1">The Architect</p>
               </div>
               <Link
