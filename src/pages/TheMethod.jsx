@@ -52,7 +52,7 @@ export default function TheMethod() {
       {/* Hero */}
       <section className="relative min-h-[70vh] flex items-center justify-center bg-cream pt-20 overflow-hidden">
         <div className="text-center px-6 max-w-3xl hero-animate">
-          <p className="text-[11px] tracking-[0.3em] uppercase mb-6 text-bronze font-raleway">
+          <p className="text-[11px] tracking-[0.3em] uppercase mb-6 text-bronze-dark font-raleway">
             The Method
           </p>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-dark-brown leading-[1.1] mb-8">
@@ -80,7 +80,7 @@ export default function TheMethod() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <Reveal variant="fadeUp">
-              <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze font-raleway">
+              <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">
                 The Approach
               </p>
             </Reveal>
@@ -129,7 +129,7 @@ export default function TheMethod() {
       <section className="py-24 lg:py-32 px-6 lg:px-12 bg-cream-light">
         <div className="max-w-7xl mx-auto">
           <Reveal className="text-center max-w-2xl mx-auto mb-20">
-            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze font-raleway">
+            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">
               The Three Pillars
             </p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark-brown">
@@ -162,7 +162,7 @@ export default function TheMethod() {
                   className={index % 2 !== 0 ? "lg:order-1" : ""}
                 >
                   <div>
-                    <span className="text-bronze text-sm tracking-widest font-raleway">
+                    <span className="text-bronze-dark text-sm tracking-widest font-raleway">
                       {pillar.number}
                     </span>
                     <h3 className="font-serif text-2xl md:text-3xl text-dark-brown mt-2 mb-4">
@@ -193,7 +193,7 @@ export default function TheMethod() {
       <section className="py-24 lg:py-32 px-6 lg:px-12 bg-dark-brown text-center overflow-hidden">
         <Reveal variant="scaleUp" duration="slow">
           <div className="max-w-2xl mx-auto">
-            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze font-raleway">
+            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">
               Ready to begin?
             </p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-cream mb-8 leading-[1.15]">
@@ -201,7 +201,7 @@ export default function TheMethod() {
             </h2>
             <Link
               to="/book-online"
-              className="inline-block border border-bronze text-bronze text-[11px] tracking-[0.2em] uppercase px-10 py-4 hover:bg-bronze hover:text-cream transition-all duration-500 font-raleway btn-shine"
+              className="inline-block border border-bronze-dark text-bronze-dark text-[11px] tracking-[0.2em] uppercase px-10 py-4 hover:bg-bronze hover:text-cream transition-all duration-500 font-raleway btn-shine"
             >
               Explore Programmes
             </Link>

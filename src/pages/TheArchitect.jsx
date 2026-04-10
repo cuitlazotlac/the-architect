@@ -7,7 +7,7 @@ export default function TheArchitect() {
       {/* Hero */}
       <section className="relative min-h-[70vh] flex items-center justify-center bg-cream pt-20">
         <div className="text-center px-6 max-w-3xl hero-animate">
-          <p className="text-[11px] tracking-[0.3em] uppercase mb-6 text-bronze font-raleway">About</p>
+          <p className="text-[11px] tracking-[0.3em] uppercase mb-6 text-bronze-dark font-raleway">About</p>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-dark-brown leading-[1.1] mb-8">
             The Architect
           </h1>
@@ -31,7 +31,7 @@ export default function TheArchitect() {
           </Reveal>
           <div>
             <Reveal variant="fadeUp">
-              <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze font-raleway">My Story</p>
+              <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">My Story</p>
             </Reveal>
             <Reveal variant="fadeUp" delay={100}>
               <h2 className="font-serif text-3xl md:text-4xl text-dark-brown mb-8 leading-[1.15]">
@@ -75,7 +75,7 @@ export default function TheArchitect() {
       <section className="py-24 lg:py-32 px-6 lg:px-12 bg-cream-light">
         <div className="max-w-7xl mx-auto">
           <Reveal className="text-center max-w-2xl mx-auto mb-16">
-            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze font-raleway">What I Believe</p>
+            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">What I Believe</p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark-brown">
               Guiding principles
             </h2>
@@ -114,7 +114,7 @@ export default function TheArchitect() {
       <section className="py-24 lg:py-32 px-6 lg:px-12 bg-sage/30 text-center overflow-hidden">
         <Reveal variant="scaleUp" duration="slow">
           <div className="max-w-2xl mx-auto">
-            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze font-raleway">Work Together</p>
+            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">Work Together</p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark-brown mb-8 leading-[1.15]">
               Ready to build something different?
             </h2>

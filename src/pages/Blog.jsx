@@ -10,7 +10,7 @@ export default function Blog() {
       {/* Hero */}
       <section className="relative min-h-[50vh] flex items-center justify-center bg-cream pt-20">
         <div className="text-center px-6 max-w-3xl hero-animate">
-          <p className="text-[11px] tracking-[0.3em] uppercase mb-6 text-bronze font-raleway">The Archive</p>
+          <p className="text-[11px] tracking-[0.3em] uppercase mb-6 text-bronze-dark font-raleway">The Archive</p>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-dark-brown leading-[1.1] mb-8">
             Blog
           </h1>
@@ -36,17 +36,17 @@ export default function Blog() {
                       />
                     </div>
                     <div className="flex items-center gap-4 mb-3">
-                      <span className="text-[10px] tracking-[0.2em] uppercase text-bronze font-raleway">{post.category}</span>
+                      <span className="text-[10px] tracking-[0.2em] uppercase text-bronze-dark font-raleway">{post.category}</span>
                       <span className="text-border text-xs">&bull;</span>
                       <span className="text-text-light text-xs">{post.date}</span>
                     </div>
-                    <h2 className="font-serif text-xl md:text-2xl text-dark-brown mb-3 group-hover:text-bronze transition-colors duration-300">
+                    <h2 className="font-serif text-xl md:text-2xl text-dark-brown mb-3 group-hover:text-bronze-dark transition-colors duration-300">
                       {post.title}
                     </h2>
                     <p className="text-text-light text-sm leading-[1.8]">
                       {post.excerpt}
                     </p>
-                    <span className="inline-block mt-4 text-[11px] tracking-[0.15em] uppercase text-bronze font-raleway relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-px after:bg-bronze after:transition-all after:duration-300 group-hover:after:w-full pb-0.5">
+                    <span className="inline-block mt-4 text-[11px] tracking-[0.15em] uppercase text-bronze-dark font-raleway relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-px after:bg-bronze after:transition-all after:duration-300 group-hover:after:w-full pb-0.5">
                       Read More &rarr;
                     </span>
                   </article>

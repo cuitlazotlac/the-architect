@@ -1,5 +1,5 @@
 // Logo E — Diamond / compass rose with clean text
-export default function Logo({ className = '' }) {
+export default function LogoE({ className = '' }) {
   return (
     <svg viewBox="0 0 220 44" fill="currentColor" className={className} aria-label="The Architect">
       {/* Diamond / rotated square */}

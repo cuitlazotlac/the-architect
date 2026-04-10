@@ -22,7 +22,7 @@ export default function Footer() {
           {/* Quick Links */}
           <Reveal variant="fadeUp" delay={120}>
             <div>
-              <h4 className="text-[11px] tracking-[0.2em] uppercase mb-6 text-bronze">Navigate</h4>
+              <h4 className="text-[11px] tracking-[0.2em] uppercase mb-6 text-bronze-dark">Navigate</h4>
               <div className="flex flex-col gap-3">
                 {[
                   { label: 'Home', path: '/' },
@@ -47,7 +47,7 @@ export default function Footer() {
           {/* Contact */}
           <Reveal variant="fadeUp" delay={240}>
             <div>
-              <h4 className="text-[11px] tracking-[0.2em] uppercase mb-6 text-bronze">Connect</h4>
+              <h4 className="text-[11px] tracking-[0.2em] uppercase mb-6 text-bronze-dark">Connect</h4>
               <div className="flex flex-col gap-3 text-cream/60 text-sm">
                 <a href="mailto:hello@thearchitect.com" className="hover:text-cream hover:translate-x-1 transition-all duration-300">hello@thearchitect.com</a>
                 <a href="https://instagram.com" target="_blank" rel="noreferrer" className="hover:text-cream hover:translate-x-1 transition-all duration-300">Instagram</a>

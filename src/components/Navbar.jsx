@@ -43,9 +43,9 @@ export default function Navbar() {
               <Link
                 key={path}
                 to={path}
-                className={`text-[11px] tracking-[0.15em] uppercase font-raleway font-normal transition-colors duration-300 hover:text-bronze relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:h-px after:bg-bronze after:transition-all after:duration-300 ${
+                className={`text-[11px] tracking-[0.15em] uppercase font-raleway font-normal transition-colors duration-300 hover:text-bronze-dark relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:h-px after:bg-bronze after:transition-all after:duration-300 ${
                   location.pathname === path
-                    ? 'text-bronze after:w-full'
+                    ? 'text-bronze-dark after:w-full'
                     : 'text-dark-brown after:w-0 hover:after:w-full'
                 }`}
               >
@@ -54,7 +54,7 @@ export default function Navbar() {
             ))}
             <Link
               to={ctaLink.path}
-              className="text-[11px] tracking-[0.15em] uppercase font-raleway font-normal border border-bronze text-bronze px-5 py-2.5 hover:bg-bronze hover:text-cream transition-all duration-500 btn-shine"
+              className="text-[11px] tracking-[0.15em] uppercase font-raleway font-normal border border-bronze-dark text-bronze-dark px-5 py-2.5 hover:bg-bronze hover:text-cream transition-all duration-500 btn-shine"
             >
               {ctaLink.label}
             </Link>
@@ -81,8 +81,8 @@ export default function Navbar() {
               key={path}
               to={path}
               onClick={() => setIsOpen(false)}
-              className={`text-[11px] tracking-[0.15em] uppercase font-raleway transition-all duration-300 hover:text-bronze hover:translate-x-2 ${
-                location.pathname === path ? 'text-bronze' : 'text-dark-brown'
+              className={`text-[11px] tracking-[0.15em] uppercase font-raleway transition-all duration-300 hover:text-bronze-dark hover:translate-x-2 ${
+                location.pathname === path ? 'text-bronze-dark' : 'text-dark-brown'
               }`}
               style={{ transitionDelay: isOpen ? `${i * 50}ms` : '0ms' }}
             >
@@ -92,7 +92,7 @@ export default function Navbar() {
           <Link
             to={ctaLink.path}
             onClick={() => setIsOpen(false)}
-            className="text-[11px] tracking-[0.15em] uppercase font-raleway border border-bronze text-bronze px-5 py-2.5 text-center mt-2 hover:bg-bronze hover:text-cream transition-all duration-500"
+            className="text-[11px] tracking-[0.15em] uppercase font-raleway border border-bronze-dark text-bronze-dark px-5 py-2.5 text-center mt-2 hover:bg-bronze hover:text-cream transition-all duration-500"
             style={{ transitionDelay: isOpen ? `${navLinks.length * 50}ms` : '0ms' }}
           >
             {ctaLink.label}

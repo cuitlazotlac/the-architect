@@ -30,7 +30,7 @@ export default function TheAudit() {
       {/* Hero */}
       <section className="relative min-h-[70vh] flex items-center justify-center bg-cream pt-20">
         <div className="text-center px-6 max-w-3xl hero-animate">
-          <p className="text-[11px] tracking-[0.3em] uppercase mb-6 text-bronze font-raleway">Assessment</p>
+          <p className="text-[11px] tracking-[0.3em] uppercase mb-6 text-bronze-dark font-raleway">Assessment</p>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-dark-brown leading-[1.1] mb-8">
             The Audit
           </h1>
@@ -47,7 +47,7 @@ export default function TheAudit() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <Reveal variant="fadeUp">
-              <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze font-raleway">What It Is</p>
+              <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">What It Is</p>
             </Reveal>
             <Reveal variant="fadeUp" delay={100}>
               <h2 className="font-serif text-3xl md:text-4xl text-dark-brown mb-8 leading-[1.15]">
@@ -93,7 +93,7 @@ export default function TheAudit() {
       <section className="py-24 lg:py-32 px-6 lg:px-12 bg-cream-light">
         <div className="max-w-4xl mx-auto">
           <Reveal className="text-center mb-20">
-            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze font-raleway">The Process</p>
+            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">The Process</p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark-brown">
               How it works
             </h2>
@@ -107,7 +107,7 @@ export default function TheAudit() {
               <Reveal key={step.number} variant="fadeUp" delay={i * 150}>
                 <div className="grid grid-cols-1 md:grid-cols-[80px_1fr] gap-6 relative">
                   <div className="relative z-10 flex items-start justify-center">
-                    <span className="text-bronze font-serif text-3xl bg-cream-light md:bg-cream-light px-2">{step.number}</span>
+                    <span className="text-bronze-dark font-serif text-3xl bg-cream-light md:bg-cream-light px-2">{step.number}</span>
                   </div>
                   <div>
                     <h3 className="font-serif text-xl text-dark-brown mb-3">{step.title}</h3>
@@ -124,7 +124,7 @@ export default function TheAudit() {
       <section className="py-24 lg:py-32 px-6 lg:px-12 bg-sage/30">
         <div className="max-w-7xl mx-auto">
           <Reveal className="text-center max-w-2xl mx-auto mb-16">
-            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze font-raleway">What You Get</p>
+            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">What You Get</p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark-brown">
               More than advice
             </h2>
@@ -150,7 +150,7 @@ export default function TheAudit() {
       <section className="py-24 lg:py-32 px-6 lg:px-12 bg-dark-brown text-center overflow-hidden">
         <Reveal variant="scaleUp" duration="slow">
           <div className="max-w-2xl mx-auto">
-            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze font-raleway">Get Started</p>
+            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">Get Started</p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-cream mb-8 leading-[1.15]">
               Book your audit
             </h2>
@@ -159,7 +159,7 @@ export default function TheAudit() {
             </p>
             <Link
               to="/book-online"
-              className="inline-block border border-bronze text-bronze text-[11px] tracking-[0.2em] uppercase px-10 py-4 hover:bg-bronze hover:text-cream transition-all duration-500 font-raleway btn-shine"
+              className="inline-block border border-bronze-dark text-bronze-dark text-[11px] tracking-[0.2em] uppercase px-10 py-4 hover:bg-bronze hover:text-cream transition-all duration-500 font-raleway btn-shine"
             >
               Book Now
             </Link>

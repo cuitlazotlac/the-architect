@@ -4,18 +4,19 @@
   --font-raleway: 'Raleway', sans-serif;
   --font-serif: 'DM Serif Display', serif;
 
-  /* Core palette from the Wix site */
-  --color-cream: #F2EBE0;
-  --color-dark-brown: #3D1A0A;
-  --color-bronze: #9B7035;
-  --color-sage: #D1DED5;
-  --color-sage-light: #E6EFE9;
-  --color-cream-light: #FDFAF4;
+  /* Color palette — grounded earth tones */
+  --color-cream: #F7F4EF;          /* warm off-white background */
+  --color-dark-brown: #2C3530;     /* deep forest dark (text, dark sections) */
+  --color-bronze: #D4A373;         /* warm terracotta accent */
+  --color-sage: #E0E7E1;           /* soft sage green (section backgrounds) */
+  --color-sage-light: #EDF1ED;     /* lighter sage */
+  --color-cream-light: #FBF9F6;    /* near-white warm */
   --color-white: #FFFFFF;
   --color-black: #000000;
-  --color-text: #3D1A0A;
-  --color-text-light: #6B5244;
-  --color-border: #D4C9BC;
+  --color-text: #2C3530;           /* forest dark for body text */
+  --color-text-light: #5C6B62;     /* muted green-gray for secondary text */
+  --color-border: #D6D3CD;         /* warm neutral border */
+  --color-bronze-dark: #B8875A;    /* deeper terracotta for text/borders */
 }
 
 @layer base {
@@ -103,7 +104,7 @@
 }
 .hover-lift:hover {
   transform: translateY(-6px);
-  box-shadow: 0 20px 40px rgba(61, 26, 10, 0.08);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
 }
 
 /* Button shine sweep effect */

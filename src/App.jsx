@@ -9,6 +9,7 @@ import TheAudit from './pages/TheAudit'
 import Blog from './pages/Blog'
 import BlogPost from './pages/BlogPost'
 import BookOnline from './pages/BookOnline'
+import LogoPreview from './pages/LogoPreview'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/book-online" element={<BookOnline />} />
+          <Route path="/logo-preview" element={<LogoPreview />} />
         </Routes>
       </main>
       <Footer />

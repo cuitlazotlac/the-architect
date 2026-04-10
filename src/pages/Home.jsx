@@ -47,7 +47,7 @@ export default function Home() {
           />
         </div>
         <div className="relative z-10 text-center px-6 max-w-3xl pt-20 hero-animate">
-          <p className="text-[11px] tracking-[0.3em] uppercase mb-6 text-bronze font-raleway">
+          <p className="text-[11px] tracking-[0.3em] uppercase mb-6 text-bronze-dark font-raleway">
             Whole-Person Coaching
           </p>
           <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl text-dark-brown leading-[1.1] mb-8">
@@ -63,7 +63,7 @@ export default function Home() {
           </p>
           <Link
             to="/book-online"
-            className="inline-block border border-bronze text-bronze text-[11px] tracking-[0.2em] uppercase px-10 py-4 hover:bg-bronze hover:text-cream transition-all duration-500 font-raleway btn-shine"
+            className="inline-block border border-bronze-dark text-bronze-dark text-[11px] tracking-[0.2em] uppercase px-10 py-4 hover:bg-bronze hover:text-cream transition-all duration-500 font-raleway btn-shine"
           >
             Start Your Journey
           </Link>
@@ -90,7 +90,7 @@ export default function Home() {
           </Reveal>
           <div className="lg:pl-8">
             <Reveal variant="fadeUp">
-              <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze font-raleway">The Philosophy</p>
+              <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">The Philosophy</p>
             </Reveal>
             <Reveal variant="fadeUp" delay={100}>
               <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark-brown mb-8 leading-[1.15]">
@@ -151,7 +151,7 @@ export default function Home() {
       <section className="py-24 lg:py-32 px-6 lg:px-12 bg-cream-light">
         <div className="max-w-7xl mx-auto">
           <Reveal className="text-center max-w-2xl mx-auto mb-16">
-            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze font-raleway">What We Work On</p>
+            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">What We Work On</p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark-brown mb-6">
               Three pillars, one practice
             </h2>
@@ -183,7 +183,7 @@ export default function Home() {
       <section className="py-24 lg:py-32 px-6 lg:px-12 bg-sage/30">
         <div className="max-w-7xl mx-auto">
           <Reveal className="text-center max-w-2xl mx-auto mb-16">
-            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze font-raleway">Kind Words</p>
+            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">Kind Words</p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark-brown">
               What clients say
             </h2>
@@ -207,7 +207,7 @@ export default function Home() {
       <section className="py-24 lg:py-32 px-6 lg:px-12 bg-dark-brown text-center overflow-hidden">
         <Reveal variant="scaleUp" duration="slow">
           <div className="max-w-2xl mx-auto">
-            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze font-raleway">Ready?</p>
+            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">Ready?</p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-cream mb-8 leading-[1.15]">
               Start building something
               <br />
@@ -219,7 +219,7 @@ export default function Home() {
             </p>
             <Link
               to="/book-online"
-              className="inline-block border border-bronze text-bronze text-[11px] tracking-[0.2em] uppercase px-10 py-4 hover:bg-bronze hover:text-cream transition-all duration-500 font-raleway btn-shine"
+              className="inline-block border border-bronze-dark text-bronze-dark text-[11px] tracking-[0.2em] uppercase px-10 py-4 hover:bg-bronze hover:text-cream transition-all duration-500 font-raleway btn-shine"
             >
               Book a Consultation
             </Link>
@@ -239,5 +239,5 @@ function StatItem({ label }) {
 }
 
 function Dot() {
-  return <span className="text-bronze text-lg shrink-0">&bull;</span>
+  return <span className="text-bronze-dark text-lg shrink-0">&bull;</span>
 }

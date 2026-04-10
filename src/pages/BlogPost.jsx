@@ -28,7 +28,7 @@ export default function BlogPost() {
         </div>
         <div className="relative z-10 w-full max-w-3xl mx-auto px-6 lg:px-12 pb-16 pt-32 hero-animate">
           <div className="flex items-center gap-4 mb-4">
-            <span className="text-[10px] tracking-[0.2em] uppercase text-bronze font-raleway">
+            <span className="text-[10px] tracking-[0.2em] uppercase text-bronze-dark font-raleway">
               {post.category}
             </span>
             <span className="text-cream/40 text-xs">&bull;</span>
@@ -64,7 +64,7 @@ export default function BlogPost() {
               </div>
               <Link
                 to="/blog"
-                className="text-[11px] tracking-[0.15em] uppercase text-bronze font-raleway hover:text-dark-brown transition-colors duration-300"
+                className="text-[11px] tracking-[0.15em] uppercase text-bronze-dark font-raleway hover:text-dark-brown transition-colors duration-300"
               >
                 &larr; All Posts
               </Link>
@@ -82,7 +82,7 @@ export default function BlogPost() {
               className="group p-8 lg:p-12 border-b md:border-b-0 md:border-r border-border/50 hover:bg-sage/20 transition-colors duration-500"
             >
               <span className="text-[10px] tracking-[0.2em] uppercase text-text-light font-raleway">&larr; Previous</span>
-              <h3 className="font-serif text-lg text-dark-brown mt-2 group-hover:text-bronze transition-colors duration-300">
+              <h3 className="font-serif text-lg text-dark-brown mt-2 group-hover:text-bronze-dark transition-colors duration-300">
                 {prevPost.title}
               </h3>
             </Link>
@@ -95,7 +95,7 @@ export default function BlogPost() {
               className="group p-8 lg:p-12 text-right hover:bg-sage/20 transition-colors duration-500"
             >
               <span className="text-[10px] tracking-[0.2em] uppercase text-text-light font-raleway">Next &rarr;</span>
-              <h3 className="font-serif text-lg text-dark-brown mt-2 group-hover:text-bronze transition-colors duration-300">
+              <h3 className="font-serif text-lg text-dark-brown mt-2 group-hover:text-bronze-dark transition-colors duration-300">
                 {nextPost.title}
               </h3>
             </Link>
@@ -109,7 +109,7 @@ export default function BlogPost() {
       <section className="py-24 lg:py-32 px-6 lg:px-12 bg-cream">
         <div className="max-w-7xl mx-auto">
           <Reveal className="text-center mb-16">
-            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze font-raleway">Keep Reading</p>
+            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">Keep Reading</p>
             <h2 className="font-serif text-3xl md:text-4xl text-dark-brown">Recent Posts</h2>
           </Reveal>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -123,8 +123,8 @@ export default function BlogPost() {
                       className="w-full h-48 object-cover transition-transform duration-700 group-hover:scale-110"
                     />
                   </div>
-                  <span className="text-[10px] tracking-[0.2em] uppercase text-bronze font-raleway">{p.category}</span>
-                  <h3 className="font-serif text-lg text-dark-brown mt-2 group-hover:text-bronze transition-colors duration-300">
+                  <span className="text-[10px] tracking-[0.2em] uppercase text-bronze-dark font-raleway">{p.category}</span>
+                  <h3 className="font-serif text-lg text-dark-brown mt-2 group-hover:text-bronze-dark transition-colors duration-300">
                     {p.title}
                   </h3>
                 </Link>

@@ -105,7 +105,7 @@ export default function BookOnline() {
       {/* Hero */}
       <section className="relative min-h-[50vh] flex items-center justify-center bg-cream pt-20">
         <div className="text-center px-6 max-w-3xl hero-animate">
-          <p className="text-[11px] tracking-[0.3em] uppercase mb-6 text-bronze font-raleway">Work With Me</p>
+          <p className="text-[11px] tracking-[0.3em] uppercase mb-6 text-bronze-dark font-raleway">Work With Me</p>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-dark-brown leading-[1.1] mb-8">
             Book Online
           </h1>
@@ -119,7 +119,7 @@ export default function BookOnline() {
       <section className="py-24 lg:py-32 px-6 lg:px-12 bg-cream">
         <div className="max-w-7xl mx-auto">
           <Reveal className="text-center max-w-2xl mx-auto mb-16">
-            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze font-raleway">Programmes</p>
+            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">Programmes</p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark-brown">
               Coaching Packages
             </h2>
@@ -128,9 +128,9 @@ export default function BookOnline() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {programmes.map((prog, i) => (
               <Reveal key={prog.name} variant="fadeUp" delay={i * 100}>
-                <div className="bg-cream-light p-8 lg:p-10 flex flex-col border border-border/50 hover-lift h-full transition-all duration-500 hover:border-bronze/30">
+                <div className="bg-cream-light p-8 lg:p-10 flex flex-col border border-border/50 hover-lift h-full transition-all duration-500 hover:border-bronze-dark/30">
                   <div className="flex items-center justify-between mb-4">
-                    <span className="text-[10px] tracking-[0.2em] uppercase text-bronze font-raleway bg-bronze/10 px-3 py-1">
+                    <span className="text-[10px] tracking-[0.2em] uppercase text-bronze-dark font-raleway bg-bronze/10 px-3 py-1">
                       {prog.tag}
                     </span>
                     <span className="text-text-light text-xs">{prog.duration}</span>
@@ -157,7 +157,7 @@ export default function BookOnline() {
       <section className="py-24 lg:py-32 px-6 lg:px-12 bg-cream-light">
         <div className="max-w-7xl mx-auto">
           <Reveal className="text-center max-w-2xl mx-auto mb-16">
-            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze font-raleway">Also Available</p>
+            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">Also Available</p>
             <h2 className="font-serif text-3xl md:text-4xl text-dark-brown">
               Individual Services
             </h2>
@@ -165,7 +165,7 @@ export default function BookOnline() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {additionalServices.map((service, i) => (
               <Reveal key={service.name} variant="fadeUp" delay={i * 120}>
-                <div className="bg-cream p-8 border border-border/30 hover-lift h-full transition-all duration-500 hover:border-bronze/30">
+                <div className="bg-cream p-8 border border-border/30 hover-lift h-full transition-all duration-500 hover:border-bronze-dark/30">
                   <h3 className="font-serif text-xl text-dark-brown mb-3">{service.name}</h3>
                   <p className="text-text-light text-sm leading-[1.8]">{service.description}</p>
                 </div>
@@ -179,7 +179,7 @@ export default function BookOnline() {
       <section id="enquiry-form" className="py-24 lg:py-32 px-6 lg:px-12 bg-sage/30">
         <div className="max-w-2xl mx-auto">
           <Reveal className="text-center mb-12">
-            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze font-raleway">Get In Touch</p>
+            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">Get In Touch</p>
             <h2 className="font-serif text-3xl md:text-4xl text-dark-brown">
               Send an enquiry
             </h2>
@@ -195,7 +195,7 @@ export default function BookOnline() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full border-b border-border py-3 text-sm outline-none focus:border-bronze transition-colors duration-300 bg-transparent placeholder:text-text-light/50 font-raleway"
+                  className="w-full border-b border-border py-3 text-sm outline-none focus:border-bronze-dark transition-colors duration-300 bg-transparent placeholder:text-text-light/50 font-raleway"
                 />
                 <input
                   type="email"
@@ -204,14 +204,14 @@ export default function BookOnline() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full border-b border-border py-3 text-sm outline-none focus:border-bronze transition-colors duration-300 bg-transparent placeholder:text-text-light/50 font-raleway"
+                  className="w-full border-b border-border py-3 text-sm outline-none focus:border-bronze-dark transition-colors duration-300 bg-transparent placeholder:text-text-light/50 font-raleway"
                 />
               </div>
               <select
                 name="programme"
                 value={formData.programme}
                 onChange={handleChange}
-                className="w-full border-b border-border py-3 text-sm outline-none focus:border-bronze transition-colors duration-300 bg-transparent text-text-light font-raleway"
+                className="w-full border-b border-border py-3 text-sm outline-none focus:border-bronze-dark transition-colors duration-300 bg-transparent text-text-light font-raleway"
               >
                 <option value="">Select a programme</option>
                 {programmes.map((prog) => (
@@ -227,7 +227,7 @@ export default function BookOnline() {
                 rows={5}
                 value={formData.message}
                 onChange={handleChange}
-                className="w-full border-b border-border py-3 text-sm outline-none focus:border-bronze transition-colors duration-300 bg-transparent placeholder:text-text-light/50 resize-none font-raleway"
+                className="w-full border-b border-border py-3 text-sm outline-none focus:border-bronze-dark transition-colors duration-300 bg-transparent placeholder:text-text-light/50 resize-none font-raleway"
               />
               <ReCAPTCHA
                 ref={captchaRef}
@@ -246,7 +246,7 @@ export default function BookOnline() {
                 {status === 'sending' ? 'Sending...' : 'Send Enquiry'}
               </button>
               {status === 'sent' && (
-                <p className="text-bronze text-sm mt-2 animate-fade-up">
+                <p className="text-bronze-dark text-sm mt-2 animate-fade-up">
                   Thank you for your enquiry! Jade will be in touch within 48 hours.
                 </p>
               )}
