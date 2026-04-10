@@ -54,7 +54,7 @@ export default function Navbar() {
             ))}
             <Link
               to={ctaLink.path}
-              className="text-[11px] tracking-[0.15em] uppercase font-raleway font-normal border border-bronze-dark text-bronze-dark px-5 py-2.5 hover:bg-bronze hover:text-cream transition-all duration-500 btn-shine"
+              className="text-[11px] tracking-[0.15em] uppercase font-raleway font-normal border border-bronze-dark text-bronze-dark px-5 py-2.5 hover:bg-bronze-dark hover:text-cream transition-all duration-500 btn-shine"
             >
               {ctaLink.label}
             </Link>

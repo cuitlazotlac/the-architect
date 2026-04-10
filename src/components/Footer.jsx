@@ -13,7 +13,7 @@ export default function Footer() {
               <Link to="/" className="inline-block mb-4 text-cream-light">
                 <Logo className="h-9 w-auto" />
               </Link>
-              <p className="text-cream/60 text-sm leading-relaxed max-w-xs">
+              <p className="text-cream/70 text-sm leading-relaxed max-w-xs">
                 Whole-person coaching that integrates nutrition, training, and mindset work to help you build a body and life that actually feel like yours.
               </p>
             </div>
@@ -22,7 +22,7 @@ export default function Footer() {
           {/* Quick Links */}
           <Reveal variant="fadeUp" delay={120}>
             <div>
-              <h4 className="text-[11px] tracking-[0.2em] uppercase mb-6 text-bronze-dark">Navigate</h4>
+              <h4 className="text-[12px] tracking-[0.2em] uppercase mb-6 text-bronze font-medium">Navigate</h4>
               <div className="flex flex-col gap-3">
                 {[
                   { label: 'Home', path: '/' },
@@ -35,7 +35,7 @@ export default function Footer() {
                   <Link
                     key={label}
                     to={path}
-                    className="text-cream/60 text-sm hover:text-cream hover:translate-x-1 transition-all duration-300"
+                    className="text-cream/70 text-[13px] hover:text-cream hover:translate-x-1 transition-all duration-300"
                   >
                     {label}
                   </Link>
@@ -47,8 +47,8 @@ export default function Footer() {
           {/* Contact */}
           <Reveal variant="fadeUp" delay={240}>
             <div>
-              <h4 className="text-[11px] tracking-[0.2em] uppercase mb-6 text-bronze-dark">Connect</h4>
-              <div className="flex flex-col gap-3 text-cream/60 text-sm">
+              <h4 className="text-[12px] tracking-[0.2em] uppercase mb-6 text-bronze font-medium">Connect</h4>
+              <div className="flex flex-col gap-3 text-cream/70 text-[13px]">
                 <a href="mailto:hello@thearchitect.com" className="hover:text-cream hover:translate-x-1 transition-all duration-300">hello@thearchitect.com</a>
                 <a href="https://instagram.com" target="_blank" rel="noreferrer" className="hover:text-cream hover:translate-x-1 transition-all duration-300">Instagram</a>
               </div>
@@ -57,8 +57,8 @@ export default function Footer() {
         </div>
 
         <Reveal variant="fadeIn" delay={300}>
-          <div className="border-t border-cream/10 mt-12 pt-8 text-center">
-            <p className="text-cream/40 text-xs tracking-wider">
+          <div className="border-t border-cream/15 mt-12 pt-8 text-center">
+            <p className="text-cream/50 text-xs tracking-wider">
               &copy; {new Date().getFullYear()} The Architect. All rights reserved.
             </p>
           </div>

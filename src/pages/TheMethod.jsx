@@ -59,18 +59,14 @@ export default function TheMethod() {
             The framework behind every transformation.
           </h1>
           <p className="text-text-light text-sm md:text-base leading-relaxed max-w-xl mx-auto">
-            Most coaches give you a plan. I give you an architecture.
-          </p>
-          <p className="text-text-light text-sm md:text-base leading-relaxed max-w-xl mx-auto">
-            The work begins with a complete audit of how you currently exist in
-            your body, your movement patterns, your relationship with food, the
-            places where stress has calcified into structure. From there we
-            build. Not toward a target weight or a fitness metric, but toward a
-            body that functions at its highest frequency.
-          </p>
-          <p className="text-text-light text-sm md:text-base leading-relaxed max-w-xl mx-auto">
-            This is not a programme with a start and end date. It is a permanent
-            shift in how you inhabit yourself.
+            Most coaches give you a plan. I give you an architecture. The
+            process begins with a deep audit of how you exist in your body
+            today—your movement patterns, your relationship with food, and the
+            places where stress has hardened into structure. From there, we
+            rebuild not toward a target weight or external metric, but toward a
+            body operating at its highest level of function and coherence. This
+            is not a programme with a start and finish line; it is a permanent
+            shift in how you inhabit and express yourself from within.
           </p>
         </div>
       </section>
@@ -93,23 +89,21 @@ export default function TheMethod() {
             </Reveal>
             <Reveal variant="fadeUp" delay={200}>
               <p className="text-text-light text-sm leading-[1.9] mb-6">
-                The fitness industry is built on the idea that something is
-                wrong with you and needs to be corrected. Eat less. Move more.
-                Try harder. And when it doesn't work, it's your fault — you just
-                didn't want it enough.
-              </p>
-            </Reveal>
-            <Reveal variant="fadeUp" delay={300}>
-              <p className="text-text-light text-sm leading-[1.9] mb-6">
-                We reject that premise entirely.
+                We treats transformation as an architectural feat, not an
+                accident. We begin by peeling back layers of habit and
+                physiology to reveal the structural integrity already within,
+                mapping the body through a precise audit of biomechanics and
+                metabolic markers before any change is made.
               </p>
             </Reveal>
             <Reveal variant="fadeUp" delay={400}>
               <p className="text-text-light text-sm leading-[1.9]">
-                Instead, we start with understanding — your body, your history,
-                your nervous system, your relationship with food and movement —
-                and we architect something that works with who you actually are.
-                Not who you think you should be.
+                From there, we design a bespoke framework that fuses elite
+                strength with neuro-somatic regulation, then move into
+                intentional rebuilding through movement and mindset to fortify a
+                new physical foundation. Finally, we integrate these practices
+                until the architected self is no longer something you apply—but
+                something you naturally are.
               </p>
             </Reveal>
           </div>
@@ -190,18 +184,18 @@ export default function TheMethod() {
       </section>
 
       {/* CTA */}
-      <section className="py-24 lg:py-32 px-6 lg:px-12 bg-dark-brown text-center overflow-hidden">
+      <section className="py-24 lg:py-32 px-6 lg:px-12 bg-sage/30 text-center overflow-hidden">
         <Reveal variant="scaleUp" duration="slow">
           <div className="max-w-2xl mx-auto">
             <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">
               Ready to begin?
             </p>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-cream mb-8 leading-[1.15]">
+            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark-brown mb-8 leading-[1.15]">
               Find the right programme
             </h2>
             <Link
               to="/book-online"
-              className="inline-block border border-bronze-dark text-bronze-dark text-[11px] tracking-[0.2em] uppercase px-10 py-4 hover:bg-bronze hover:text-cream transition-all duration-500 font-raleway btn-shine"
+              className="inline-block border border-bronze-dark text-bronze-dark text-[11px] tracking-[0.2em] uppercase px-10 py-4 hover:bg-bronze-dark hover:text-cream transition-all duration-500 font-raleway btn-shine"
             >
               Explore Programmes
             </Link>

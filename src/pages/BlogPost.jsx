@@ -28,11 +28,11 @@ export default function BlogPost() {
         </div>
         <div className="relative z-10 w-full max-w-3xl mx-auto px-6 lg:px-12 pb-16 pt-32 hero-animate">
           <div className="flex items-center gap-4 mb-4">
-            <span className="text-[10px] tracking-[0.2em] uppercase text-bronze-dark font-raleway">
+            <span className="text-[10px] tracking-[0.2em] uppercase text-cream font-raleway">
               {post.category}
             </span>
-            <span className="text-cream/40 text-xs">&bull;</span>
-            <span className="text-cream/60 text-xs">{post.date}</span>
+            <span className="text-cream text-xs">&bull;</span>
+            <span className="text-cream text-xs">{post.date}</span>
           </div>
           <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-cream leading-[1.15]">
             {post.title}
@@ -123,7 +123,7 @@ export default function BlogPost() {
                       className="w-full h-48 object-cover transition-transform duration-700 group-hover:scale-110"
                     />
                   </div>
-                  <span className="text-[10px] tracking-[0.2em] uppercase text-bronze-dark font-raleway">{p.category}</span>
+                  <span className="text-[10px] tracking-[0.2em] uppercase text-bronze font-raleway">{p.category}</span>
                   <h3 className="font-serif text-lg text-dark-brown mt-2 group-hover:text-bronze-dark transition-colors duration-300">
                     {p.title}
                   </h3>

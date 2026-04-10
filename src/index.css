@@ -15,8 +15,8 @@
   --color-black: #000000;
   --color-text: #2C3530;           /* forest dark for body text */
   --color-text-light: #5C6B62;     /* muted green-gray for secondary text */
-  --color-border: #D6D3CD;         /* warm neutral border */
-  --color-bronze-dark: #B8875A;    /* deeper terracotta for text/borders */
+  --color-border: #C8D1CA;         /* sage-tinted border — ties to the greens */
+  --color-bronze-dark: #3D5A4C;    /* deep sage green — readable accent text */
 }
 
 @layer base {

@@ -1,8 +1,13 @@
 // ============================================================
 // Blog Posts — all article content lives here.
 // To add a new post: copy an object, give it a unique slug,
-// and write the body as an array of paragraph strings.
+// add an image to src/assets/blog/ and import it below.
 // ============================================================
+
+import WhereStressActuallyLivesInTheBody from '../assets/blog/where-stress-actually-lives-in-the-body.png'
+import whatTheFitnessIndustryGetsWrongAboutFood from '../assets/blog/what-the-fitness-industry-gets-wrong-about-food.png'
+import WhyIStoppedFixingBodies from '../assets/blog/why-i-stopped-fixing-bodies.png'
+import TheDifferenceBetweenPeaceandHappiness from '../assets/blog/the-difference-between-peace-and-happiness.png'
 
 const posts = [
   {
@@ -12,8 +17,7 @@ const posts = [
       'We talk about stress as though it lives in the mind. We manage it with mindset work. We journal about it. We meditate. But stress doesn\'t live in the mind. It lives in the body. This is not a metaphor. It is physiology.',
     date: 'March 29, 2026',
     category: 'Mindset',
-    image:
-      'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&h=500&fit=crop',
+    image: WhereStressActuallyLivesInTheBody,
     body: [
       'We talk about stress as though it lives in the mind. We manage it with mindset work. We journal about it. We meditate. We try to think our way out of it — to reframe, to release, to choose a different perspective.',
       'And sometimes that helps. Temporarily. The way a painkiller helps. The sensation quiets. The pressure lifts a little. But the stress itself doesn\'t go anywhere.',
@@ -34,8 +38,7 @@ const posts = [
       'Calories in, calories out. Macros tracked to the gram. The fitness industry\'s approach to nutrition reduces food to mathematical calculations. And despite meticulous adherence, many people find themselves more miserable than ever.',
     date: 'March 29, 2026',
     category: 'Nutrition',
-    image:
-      'https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&h=500&fit=crop',
+    image: whatTheFitnessIndustryGetsWrongAboutFood,
     body: [
       'Calories in, calories out. Macros tracked to the gram. Protein targets hit within a decimal point of precision. The fitness industry\'s approach to nutrition reduces food to a mathematical equation — and promises that if you just solve it correctly, the body you want will follow.',
       'I believed this for years. I tracked everything. I weighed my chicken breast on a food scale. I calculated the exact thermic effect of every meal. And on paper, I was doing everything right.',
@@ -56,8 +59,7 @@ const posts = [
       'I had the certifications. I had the protocols. Clients came to me wanting to lose weight and build strength. Results came quickly on the surface. But something bothered me that I couldn\'t name.',
     date: 'March 29, 2026',
     category: 'Philosophy',
-    image:
-      'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&h=500&fit=crop',
+    image: WhyIStoppedFixingBodies,
     body: [
       'I had the certifications. I had the protocols. I had the spreadsheets, the periodized programs, the meal plan templates. Clients came to me wanting to lose weight, build muscle, feel confident. And I delivered.',
       'The results came quickly. On the surface. Bodies changed. Numbers moved in the right direction. Progress photos told a compelling story.',
@@ -79,8 +81,7 @@ const posts = [
       'I once chased happiness through restriction and bodybuilding, viewing it as always one more rep, one less meal away. The problem with happiness is that it requires a reason. Something has to happen for you to feel it.',
     date: 'March 29, 2026',
     category: 'Mindset',
-    image:
-      'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=500&fit=crop',
+    image: TheDifferenceBetweenPeaceandHappiness,
     body: [
       'For a long time, I chased happiness. I thought it lived at the bottom of a meal plan. At the end of a twelve-week program. On the other side of a number on the scale. One more rep. One less meal. One more transformation. Then I\'d be happy.',
       'And sometimes I was — briefly. The high of a new PR. The satisfaction of hitting a macro target perfectly. The dopamine rush of progress photos that showed visible change. These were real moments of happiness.',

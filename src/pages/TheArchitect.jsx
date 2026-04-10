@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
-import Reveal from '../components/Reveal'
+import { Link } from "react-router-dom";
+import Reveal from "../components/Reveal";
 
 export default function TheArchitect() {
   return (
@@ -7,12 +7,14 @@ export default function TheArchitect() {
       {/* Hero */}
       <section className="relative min-h-[70vh] flex items-center justify-center bg-cream pt-20">
         <div className="text-center px-6 max-w-3xl hero-animate">
-          <p className="text-[11px] tracking-[0.3em] uppercase mb-6 text-bronze-dark font-raleway">About</p>
+          <p className="text-[11px] tracking-[0.3em] uppercase mb-6 text-bronze-dark font-raleway">
+            About
+          </p>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-dark-brown leading-[1.1] mb-8">
             The Architect
           </h1>
           <p className="text-text-light text-sm md:text-base leading-relaxed max-w-xl mx-auto">
-            Meet Jade — the coach behind the method.
+            The story behind the practice.
           </p>
         </div>
       </section>
@@ -31,40 +33,45 @@ export default function TheArchitect() {
           </Reveal>
           <div>
             <Reveal variant="fadeUp">
-              <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">My Story</p>
+              <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">
+                My Story
+              </p>
             </Reveal>
             <Reveal variant="fadeUp" delay={100}>
               <h2 className="font-serif text-3xl md:text-4xl text-dark-brown mb-8 leading-[1.15]">
-                I stopped fixing bodies.<br />
-                Then the real work began.
+                When the Body Stops
+                <br />
+                Being the Enemy.
               </h2>
             </Reveal>
             <Reveal variant="fadeUp" delay={200}>
               <p className="text-text-light text-sm leading-[1.9] mb-6">
-                I spent years in the fitness industry doing what I was taught — counting macros,
-                building programs, chasing aesthetics. I had the certifications. I had the protocols.
-                Clients came to me wanting to lose weight, build muscle, feel confident.
+                I grew up at war with my own body. Overweight, then starving. I
+                spent years believing the answer was less, less food, less
+                space, less of me.
               </p>
             </Reveal>
             <Reveal variant="fadeUp" delay={300}>
               <p className="text-text-light text-sm leading-[1.9] mb-6">
-                And the results came. On the surface. But something bothered me that I couldn't name.
-                People would hit their goals and still feel empty. They'd lose the weight and gain it back.
-                They'd build the body and still not feel at home in it.
+                The turning point was not a programme. It was a decision to
+                start treating my body as something worth rebuilding rather than
+                something to be punished.
               </p>
             </Reveal>
             <Reveal variant="fadeUp" delay={400}>
               <p className="text-text-light text-sm leading-[1.9] mb-6">
-                That's when I realized: the problem was never the plan. It was the premise.
-                We were trying to fix something that wasn't broken — it was just misunderstood.
+                I went deep into biomechanics, neuro-somatic work, and
+                nutritional science. I became disillusioned with the fitness
+                industry, its obsession with aesthetics, its reliance on
+                processed supplements, its complete disregard for the person
+                inside the body.
               </p>
             </Reveal>
             <Reveal variant="fadeUp" delay={500}>
               <p className="text-text-light text-sm leading-[1.9]">
-                So I changed everything. I stopped writing meal plans and started having real conversations
-                about food. I stopped programming for aesthetics and started building for strength and
-                autonomy. I stopped offering mindset "hacks" and started doing the deep work of
-                understanding how the nervous system, identity, and behavior actually connect.
+                The Architect exists because that industry failed people like
+                me. This is not coaching. This is a complete re-architecture of
+                how you exist in your body.
               </p>
             </Reveal>
           </div>
@@ -75,7 +82,9 @@ export default function TheArchitect() {
       <section className="py-24 lg:py-32 px-6 lg:px-12 bg-cream-light">
         <div className="max-w-7xl mx-auto">
           <Reveal className="text-center max-w-2xl mx-auto mb-16">
-            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">What I Believe</p>
+            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">
+              What I Believe
+            </p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark-brown">
               Guiding principles
             </h2>
@@ -83,26 +92,30 @@ export default function TheArchitect() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               {
-                title: 'The body is not a problem to solve',
-                text: 'It\'s a system to understand. When we stop treating the body as the enemy and start listening to what it\'s communicating, everything shifts.',
+                title: "Beyond Aesthetic Obsession",
+                text: "We reject the reduction of the body to appearance and instead prioritize internal structural truth over external validation.",
               },
               {
-                title: 'Restriction is not discipline',
-                text: 'Real discipline is choosing to nourish yourself — fully, consistently, without punishment. It\'s building a relationship with food that doesn\'t require willpower to sustain.',
+                title: "No Punishment-Based Transformation",
+                text: "The body is not something to conquer or correct through shame, but something to understand, restore, and work with.",
               },
               {
-                title: 'Strength is more than physical',
-                text: 'Training builds confidence, resilience, and trust in yourself. The weights are a vehicle for something much larger than muscle.',
+                title: "Return to Biological Integrity",
+                text: "We move away from synthetic and engineered solutions, rebuilding health through fundamental, earth-based nutritional principles.",
               },
               {
-                title: 'Sustainable change starts inside',
-                text: 'You cannot out-plan a nervous system that doesn\'t feel safe. Mindset work isn\'t optional — it\'s the foundation everything else is built on.',
+                title: "Neuro-Somatic Reconnection",
+                text: "We restore the link between mind and body by rewiring trauma patterns and re-establishing deep physiological awareness and control.",
               },
             ].map((value, i) => (
               <Reveal key={value.title} variant="fadeUp" delay={i * 120}>
                 <div className="bg-cream p-8 lg:p-10 hover-lift h-full transition-all duration-500">
-                  <h3 className="font-serif text-xl text-dark-brown mb-4">{value.title}</h3>
-                  <p className="text-text-light text-sm leading-[1.9]">{value.text}</p>
+                  <h3 className="font-serif text-xl text-dark-brown mb-4">
+                    {value.title}
+                  </h3>
+                  <p className="text-text-light text-sm leading-[1.9]">
+                    {value.text}
+                  </p>
                 </div>
               </Reveal>
             ))}
@@ -114,7 +127,9 @@ export default function TheArchitect() {
       <section className="py-24 lg:py-32 px-6 lg:px-12 bg-sage/30 text-center overflow-hidden">
         <Reveal variant="scaleUp" duration="slow">
           <div className="max-w-2xl mx-auto">
-            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">Work Together</p>
+            <p className="text-[11px] tracking-[0.3em] uppercase mb-4 text-bronze-dark font-raleway">
+              Work Together
+            </p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark-brown mb-8 leading-[1.15]">
               Ready to build something different?
             </h2>
@@ -128,5 +143,5 @@ export default function TheArchitect() {
         </Reveal>
       </section>
     </div>
-  )
+  );
 }
